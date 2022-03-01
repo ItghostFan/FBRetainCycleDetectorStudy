@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CB4AEAB78410024A075CCA3 /* Pods_FBRetainCycleDetectorStudyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C253B4DC7DD800E6BDCDAF72 /* Pods_FBRetainCycleDetectorStudyTests.framework */; };
+		7899FC7027CDF323004EB1EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7899FC6F27CDF323004EB1EF /* AppDelegate.m */; };
+		7899FC7327CDF323004EB1EF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7899FC7227CDF323004EB1EF /* SceneDelegate.m */; };
+		7899FC7627CDF323004EB1EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7899FC7527CDF323004EB1EF /* ViewController.m */; };
+		7899FC7927CDF323004EB1EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7899FC7727CDF323004EB1EF /* Main.storyboard */; };
+		7899FC7B27CDF325004EB1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7899FC7A27CDF325004EB1EF /* Assets.xcassets */; };
+		7899FC7E27CDF325004EB1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7899FC7C27CDF325004EB1EF /* LaunchScreen.storyboard */; };
+		7899FC8127CDF325004EB1EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7899FC8027CDF325004EB1EF /* main.m */; };
+		7899FC8B27CDF325004EB1EF /* FBRetainCycleDetectorStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7899FC8A27CDF325004EB1EF /* FBRetainCycleDetectorStudyTests.m */; };
+		7899FC9527CDF325004EB1EF /* FBRetainCycleDetectorStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7899FC9427CDF325004EB1EF /* FBRetainCycleDetectorStudyUITests.m */; };
+		7899FC9727CDF325004EB1EF /* FBRetainCycleDetectorStudyUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7899FC9627CDF325004EB1EF /* FBRetainCycleDetectorStudyUITestsLaunchTests.m */; };
+		B76B3A6128057BE9DA877D8F /* Pods_FBRetainCycleDetectorStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6DACD3AACFE73DE33F40610 /* Pods_FBRetainCycleDetectorStudy.framework */; };
+		FC556F6F2D4A809CFD1A8E99 /* Pods_FBRetainCycleDetectorStudy_FBRetainCycleDetectorStudyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7CC290486DCEDE4E1BFB86 /* Pods_FBRetainCycleDetectorStudy_FBRetainCycleDetectorStudyUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7899FC8727CDF325004EB1EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7899FC6327CDF323004EB1EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7899FC6A27CDF323004EB1EF;
+			remoteInfo = FBRetainCycleDetectorStudy;
+		};
+		7899FC9127CDF325004EB1EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7899FC6327CDF323004EB1EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7899FC6A27CDF323004EB1EF;
+			remoteInfo = FBRetainCycleDetectorStudy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12319B6A35740C8D28CDEE5C /* Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests.debug.xcconfig"; path = "Target Support Files/Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests/Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5727AD23DEEBF603D0378999 /* Pods-FBRetainCycleDetectorStudyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBRetainCycleDetectorStudyTests.debug.xcconfig"; path = "Target Support Files/Pods-FBRetainCycleDetectorStudyTests/Pods-FBRetainCycleDetectorStudyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EEB269D4298BE0F7AD04BEC /* Pods-FBRetainCycleDetectorStudyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBRetainCycleDetectorStudyTests.release.xcconfig"; path = "Target Support Files/Pods-FBRetainCycleDetectorStudyTests/Pods-FBRetainCycleDetectorStudyTests.release.xcconfig"; sourceTree = "<group>"; };
+		751174E850552E9EB98E3759 /* Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests.release.xcconfig"; path = "Target Support Files/Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests/Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7899FC6B27CDF323004EB1EF /* FBRetainCycleDetectorStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBRetainCycleDetectorStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7899FC6E27CDF323004EB1EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7899FC6F27CDF323004EB1EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7899FC7127CDF323004EB1EF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7899FC7227CDF323004EB1EF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7899FC7427CDF323004EB1EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7899FC7527CDF323004EB1EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7899FC7827CDF323004EB1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7899FC7A27CDF325004EB1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7899FC7D27CDF325004EB1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7899FC7F27CDF325004EB1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7899FC8027CDF325004EB1EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7899FC8627CDF325004EB1EF /* FBRetainCycleDetectorStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBRetainCycleDetectorStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7899FC8A27CDF325004EB1EF /* FBRetainCycleDetectorStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBRetainCycleDetectorStudyTests.m; sourceTree = "<group>"; };
+		7899FC9027CDF325004EB1EF /* FBRetainCycleDetectorStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBRetainCycleDetectorStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7899FC9427CDF325004EB1EF /* FBRetainCycleDetectorStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBRetainCycleDetectorStudyUITests.m; sourceTree = "<group>"; };
+		7899FC9627CDF325004EB1EF /* FBRetainCycleDetectorStudyUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBRetainCycleDetectorStudyUITestsLaunchTests.m; sourceTree = "<group>"; };
+		9F7CC290486DCEDE4E1BFB86 /* Pods_FBRetainCycleDetectorStudy_FBRetainCycleDetectorStudyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBRetainCycleDetectorStudy_FBRetainCycleDetectorStudyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD148643FAD049A9BCD3F9B7 /* Pods-FBRetainCycleDetectorStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBRetainCycleDetectorStudy.debug.xcconfig"; path = "Target Support Files/Pods-FBRetainCycleDetectorStudy/Pods-FBRetainCycleDetectorStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		C253B4DC7DD800E6BDCDAF72 /* Pods_FBRetainCycleDetectorStudyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBRetainCycleDetectorStudyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C50D907CFFA9423FC533C2 /* Pods-FBRetainCycleDetectorStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBRetainCycleDetectorStudy.release.xcconfig"; path = "Target Support Files/Pods-FBRetainCycleDetectorStudy/Pods-FBRetainCycleDetectorStudy.release.xcconfig"; sourceTree = "<group>"; };
+		E6DACD3AACFE73DE33F40610 /* Pods_FBRetainCycleDetectorStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBRetainCycleDetectorStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7899FC6827CDF323004EB1EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76B3A6128057BE9DA877D8F /* Pods_FBRetainCycleDetectorStudy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7899FC8327CDF325004EB1EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB4AEAB78410024A075CCA3 /* Pods_FBRetainCycleDetectorStudyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7899FC8D27CDF325004EB1EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC556F6F2D4A809CFD1A8E99 /* Pods_FBRetainCycleDetectorStudy_FBRetainCycleDetectorStudyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7899FC6227CDF323004EB1EF = {
+			isa = PBXGroup;
+			children = (
+				7899FC6D27CDF323004EB1EF /* FBRetainCycleDetectorStudy */,
+				7899FC8927CDF325004EB1EF /* FBRetainCycleDetectorStudyTests */,
+				7899FC9327CDF325004EB1EF /* FBRetainCycleDetectorStudyUITests */,
+				7899FC6C27CDF323004EB1EF /* Products */,
+				C64089B932E8DFA2BD5DF57F /* Pods */,
+				A3DBD21910898363F410FB58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7899FC6C27CDF323004EB1EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7899FC6B27CDF323004EB1EF /* FBRetainCycleDetectorStudy.app */,
+				7899FC8627CDF325004EB1EF /* FBRetainCycleDetectorStudyTests.xctest */,
+				7899FC9027CDF325004EB1EF /* FBRetainCycleDetectorStudyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7899FC6D27CDF323004EB1EF /* FBRetainCycleDetectorStudy */ = {
+			isa = PBXGroup;
+			children = (
+				7899FC6E27CDF323004EB1EF /* AppDelegate.h */,
+				7899FC6F27CDF323004EB1EF /* AppDelegate.m */,
+				7899FC7127CDF323004EB1EF /* SceneDelegate.h */,
+				7899FC7227CDF323004EB1EF /* SceneDelegate.m */,
+				7899FC7427CDF323004EB1EF /* ViewController.h */,
+				7899FC7527CDF323004EB1EF /* ViewController.m */,
+				7899FC7727CDF323004EB1EF /* Main.storyboard */,
+				7899FC7A27CDF325004EB1EF /* Assets.xcassets */,
+				7899FC7C27CDF325004EB1EF /* LaunchScreen.storyboard */,
+				7899FC7F27CDF325004EB1EF /* Info.plist */,
+				7899FC8027CDF325004EB1EF /* main.m */,
+			);
+			path = FBRetainCycleDetectorStudy;
+			sourceTree = "<group>";
+		};
+		7899FC8927CDF325004EB1EF /* FBRetainCycleDetectorStudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				7899FC8A27CDF325004EB1EF /* FBRetainCycleDetectorStudyTests.m */,
+			);
+			path = FBRetainCycleDetectorStudyTests;
+			sourceTree = "<group>";
+		};
+		7899FC9327CDF325004EB1EF /* FBRetainCycleDetectorStudyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7899FC9427CDF325004EB1EF /* FBRetainCycleDetectorStudyUITests.m */,
+				7899FC9627CDF325004EB1EF /* FBRetainCycleDetectorStudyUITestsLaunchTests.m */,
+			);
+			path = FBRetainCycleDetectorStudyUITests;
+			sourceTree = "<group>";
+		};
+		A3DBD21910898363F410FB58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6DACD3AACFE73DE33F40610 /* Pods_FBRetainCycleDetectorStudy.framework */,
+				9F7CC290486DCEDE4E1BFB86 /* Pods_FBRetainCycleDetectorStudy_FBRetainCycleDetectorStudyUITests.framework */,
+				C253B4DC7DD800E6BDCDAF72 /* Pods_FBRetainCycleDetectorStudyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C64089B932E8DFA2BD5DF57F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD148643FAD049A9BCD3F9B7 /* Pods-FBRetainCycleDetectorStudy.debug.xcconfig */,
+				E5C50D907CFFA9423FC533C2 /* Pods-FBRetainCycleDetectorStudy.release.xcconfig */,
+				12319B6A35740C8D28CDEE5C /* Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests.debug.xcconfig */,
+				751174E850552E9EB98E3759 /* Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests.release.xcconfig */,
+				5727AD23DEEBF603D0378999 /* Pods-FBRetainCycleDetectorStudyTests.debug.xcconfig */,
+				5EEB269D4298BE0F7AD04BEC /* Pods-FBRetainCycleDetectorStudyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7899FC6A27CDF323004EB1EF /* FBRetainCycleDetectorStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7899FC9A27CDF325004EB1EF /* Build configuration list for PBXNativeTarget "FBRetainCycleDetectorStudy" */;
+			buildPhases = (
+				8385508E2C216A522C239B86 /* [CP] Check Pods Manifest.lock */,
+				7899FC6727CDF323004EB1EF /* Sources */,
+				7899FC6827CDF323004EB1EF /* Frameworks */,
+				7899FC6927CDF323004EB1EF /* Resources */,
+				5838F2D795CFAB1802C85D82 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBRetainCycleDetectorStudy;
+			productName = FBRetainCycleDetectorStudy;
+			productReference = 7899FC6B27CDF323004EB1EF /* FBRetainCycleDetectorStudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7899FC8527CDF325004EB1EF /* FBRetainCycleDetectorStudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7899FC9D27CDF325004EB1EF /* Build configuration list for PBXNativeTarget "FBRetainCycleDetectorStudyTests" */;
+			buildPhases = (
+				99BF72091F8E7DA0782F91B2 /* [CP] Check Pods Manifest.lock */,
+				7899FC8227CDF325004EB1EF /* Sources */,
+				7899FC8327CDF325004EB1EF /* Frameworks */,
+				7899FC8427CDF325004EB1EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7899FC8827CDF325004EB1EF /* PBXTargetDependency */,
+			);
+			name = FBRetainCycleDetectorStudyTests;
+			productName = FBRetainCycleDetectorStudyTests;
+			productReference = 7899FC8627CDF325004EB1EF /* FBRetainCycleDetectorStudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7899FC8F27CDF325004EB1EF /* FBRetainCycleDetectorStudyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7899FCA027CDF325004EB1EF /* Build configuration list for PBXNativeTarget "FBRetainCycleDetectorStudyUITests" */;
+			buildPhases = (
+				936A5B763D4F2BC65EA903C9 /* [CP] Check Pods Manifest.lock */,
+				7899FC8C27CDF325004EB1EF /* Sources */,
+				7899FC8D27CDF325004EB1EF /* Frameworks */,
+				7899FC8E27CDF325004EB1EF /* Resources */,
+				4787C74282545AE4E89753DD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7899FC9227CDF325004EB1EF /* PBXTargetDependency */,
+			);
+			name = FBRetainCycleDetectorStudyUITests;
+			productName = FBRetainCycleDetectorStudyUITests;
+			productReference = 7899FC9027CDF325004EB1EF /* FBRetainCycleDetectorStudyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7899FC6327CDF323004EB1EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7899FC6A27CDF323004EB1EF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7899FC8527CDF325004EB1EF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7899FC6A27CDF323004EB1EF;
+					};
+					7899FC8F27CDF325004EB1EF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7899FC6A27CDF323004EB1EF;
+					};
+				};
+			};
+			buildConfigurationList = 7899FC6627CDF323004EB1EF /* Build configuration list for PBXProject "FBRetainCycleDetectorStudy" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7899FC6227CDF323004EB1EF;
+			productRefGroup = 7899FC6C27CDF323004EB1EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7899FC6A27CDF323004EB1EF /* FBRetainCycleDetectorStudy */,
+				7899FC8527CDF325004EB1EF /* FBRetainCycleDetectorStudyTests */,
+				7899FC8F27CDF325004EB1EF /* FBRetainCycleDetectorStudyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7899FC6927CDF323004EB1EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7899FC7E27CDF325004EB1EF /* LaunchScreen.storyboard in Resources */,
+				7899FC7B27CDF325004EB1EF /* Assets.xcassets in Resources */,
+				7899FC7927CDF323004EB1EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7899FC8427CDF325004EB1EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7899FC8E27CDF325004EB1EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4787C74282545AE4E89753DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests/Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests/Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests/Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5838F2D795CFAB1802C85D82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBRetainCycleDetectorStudy/Pods-FBRetainCycleDetectorStudy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBRetainCycleDetectorStudy/Pods-FBRetainCycleDetectorStudy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FBRetainCycleDetectorStudy/Pods-FBRetainCycleDetectorStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8385508E2C216A522C239B86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBRetainCycleDetectorStudy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		936A5B763D4F2BC65EA903C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99BF72091F8E7DA0782F91B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBRetainCycleDetectorStudyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7899FC6727CDF323004EB1EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7899FC7627CDF323004EB1EF /* ViewController.m in Sources */,
+				7899FC7027CDF323004EB1EF /* AppDelegate.m in Sources */,
+				7899FC8127CDF325004EB1EF /* main.m in Sources */,
+				7899FC7327CDF323004EB1EF /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7899FC8227CDF325004EB1EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7899FC8B27CDF325004EB1EF /* FBRetainCycleDetectorStudyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7899FC8C27CDF325004EB1EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7899FC9727CDF325004EB1EF /* FBRetainCycleDetectorStudyUITestsLaunchTests.m in Sources */,
+				7899FC9527CDF325004EB1EF /* FBRetainCycleDetectorStudyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7899FC8827CDF325004EB1EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7899FC6A27CDF323004EB1EF /* FBRetainCycleDetectorStudy */;
+			targetProxy = 7899FC8727CDF325004EB1EF /* PBXContainerItemProxy */;
+		};
+		7899FC9227CDF325004EB1EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7899FC6A27CDF323004EB1EF /* FBRetainCycleDetectorStudy */;
+			targetProxy = 7899FC9127CDF325004EB1EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7899FC7727CDF323004EB1EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7899FC7827CDF323004EB1EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7899FC7C27CDF325004EB1EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7899FC7D27CDF325004EB1EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7899FC9827CDF325004EB1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7899FC9927CDF325004EB1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7899FC9B27CDF325004EB1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD148643FAD049A9BCD3F9B7 /* Pods-FBRetainCycleDetectorStudy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4C39GTGS9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FBRetainCycleDetectorStudy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itghost.FBRetainCycleDetectorStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7899FC9C27CDF325004EB1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5C50D907CFFA9423FC533C2 /* Pods-FBRetainCycleDetectorStudy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4C39GTGS9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FBRetainCycleDetectorStudy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itghost.FBRetainCycleDetectorStudy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7899FC9E27CDF325004EB1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5727AD23DEEBF603D0378999 /* Pods-FBRetainCycleDetectorStudyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4C39GTGS9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itghost.FBRetainCycleDetectorStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBRetainCycleDetectorStudy.app/FBRetainCycleDetectorStudy";
+			};
+			name = Debug;
+		};
+		7899FC9F27CDF325004EB1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EEB269D4298BE0F7AD04BEC /* Pods-FBRetainCycleDetectorStudyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4C39GTGS9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itghost.FBRetainCycleDetectorStudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBRetainCycleDetectorStudy.app/FBRetainCycleDetectorStudy";
+			};
+			name = Release;
+		};
+		7899FCA127CDF325004EB1EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12319B6A35740C8D28CDEE5C /* Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4C39GTGS9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itghost.FBRetainCycleDetectorStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FBRetainCycleDetectorStudy;
+			};
+			name = Debug;
+		};
+		7899FCA227CDF325004EB1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 751174E850552E9EB98E3759 /* Pods-FBRetainCycleDetectorStudy-FBRetainCycleDetectorStudyUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4C39GTGS9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itghost.FBRetainCycleDetectorStudyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FBRetainCycleDetectorStudy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7899FC6627CDF323004EB1EF /* Build configuration list for PBXProject "FBRetainCycleDetectorStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7899FC9827CDF325004EB1EF /* Debug */,
+				7899FC9927CDF325004EB1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7899FC9A27CDF325004EB1EF /* Build configuration list for PBXNativeTarget "FBRetainCycleDetectorStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7899FC9B27CDF325004EB1EF /* Debug */,
+				7899FC9C27CDF325004EB1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7899FC9D27CDF325004EB1EF /* Build configuration list for PBXNativeTarget "FBRetainCycleDetectorStudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7899FC9E27CDF325004EB1EF /* Debug */,
+				7899FC9F27CDF325004EB1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7899FCA027CDF325004EB1EF /* Build configuration list for PBXNativeTarget "FBRetainCycleDetectorStudyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7899FCA127CDF325004EB1EF /* Debug */,
+				7899FCA227CDF325004EB1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7899FC6327CDF323004EB1EF /* Project object */;
+}
